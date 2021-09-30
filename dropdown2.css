@@ -1,0 +1,27 @@
+header{background-color:hotpink;padding:20px;
+text-align: left;}
+ul{list-style-type: none;padding-left:0;margin:0;}
+.main>li{display: inline-block;padding:20px;}
+.main a{color:white;text-decoration: none;}
+.main li:hover{background-color: brown;}
+.dropdown{position: relative;}
+.dropdown .submenu{display: none;}
+.dropdown .submenu li{padding:20px;}
+.dropdown:hover .submenu{display: block;}
+.submenu{position: absolute;
+top:59px;
+text-align: center;
+left:0;
+min-width: 119px;
+background-color: grey;}
+.submenu li:hover{background-color: cadetblue;}
+.submenu2{display: none;}
+.submenu2>a{color:white;text-decoration: none;}
+.submenu li:hover .submenu2{display: block;}
+.submenu2{
+    position: absolute;
+    top:115px;
+    left:100%;
+    background-color: grey;
+    min-width:fit-content;
+}
